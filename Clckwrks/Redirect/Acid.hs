@@ -16,7 +16,7 @@ import Control.Monad.State     (get, modify, put)
 import Control.Monad.Trans     (liftIO)
 import Data.Acid               (AcidState, Query, Update, makeAcidic)
 import Data.Data               (Data, Typeable)
-import Data.IxSet              (Indexable, IxSet, (@=), Proxy(..), empty, fromList, getOne, ixSet, ixFun, insert, toList, toDescList, updateIx)
+import Data.IxSet              (Indexable, IxSet, (@=), empty, fromList, getOne, ixSet, ixFun, insert, toList, toDescList, updateIx)
 import           Data.Map      (Map)
 import qualified Data.Map      as Map
 import Data.Maybe              (fromJust)
